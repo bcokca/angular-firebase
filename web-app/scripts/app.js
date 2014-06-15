@@ -1,5 +1,5 @@
 // create module for custom directives
-var angularFireApp = angular.module('angbootApp',['ui.bootstrap', 'firebase']).config(
+var angularFireApp = angular.module('angularFireApp',['ui.bootstrap', 'firebase']).config(
 	[ '$routeProvider', '$locationProvider','$httpProvider',
 	function($routeProvider, $locationProvider) {
 		$routeProvider.when('/login', {
