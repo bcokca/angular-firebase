@@ -1,6 +1,8 @@
 <div class="container-fixed">
 	<div class="hero-unit">
 		<p>Please sign in with your social account. How cool is that?</p>
-        <button class="btn btn-facebook"ng-click = "loginUser('facebook')"><i class="fa fa-facebook"></i> | Connect with Facebook</button>
+        <button ng-hide="auth.user" class="btn btn-facebook" ng-click ="auth.$login('facebook')">
+            <i class="fa fa-facebook"></i> | Connect with Facebook</button>
 	<div>
+
 </div>
