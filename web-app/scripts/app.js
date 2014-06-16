@@ -7,7 +7,10 @@ var angularFireApp = angular.module('angularFireApp',['ui.bootstrap', 'firebase'
 		}).when('/main', {
 			templateUrl : 'views/main.html',
 			controller : 'AppCtrl'
-		}).otherwise({
+		}).when('/chat', {
+            templateUrl : 'views/chat.html',
+            controller : 'ChatCtrl'
+        }).otherwise({
 			redirectTo : '/login'
 		});
 	}
