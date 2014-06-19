@@ -1,8 +1,15 @@
 <div class="container-fixed">
 	<div class="hero-unit">
 		<p ng-hide="auth.user">Please sign in with your social account</p>
+
+        <!-- facebook button -->
         <button ng-hide="auth.user" class="btn btn-facebook" ng-click ="login('facebook')">
             <i class="fa fa-facebook"></i> | Connect with Facebook</button>
+
+        <br>
+        <!-- twitter buton -->
+        <button ng-hide="auth.user" class="btn btn-twitter" ng-click ="login('twitter')">
+            <i class="fa fa-twitter"></i> | Connect with Twitter</button>
 	<div>
 
 

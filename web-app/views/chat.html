@@ -1,10 +1,13 @@
 <div class="container-fixed">
     <ul ng-repeat="message in messages" >
-        <li>{{message.from}}: {{message.content}}</li>
+        <li><img src="{{message.img_url}}" height="25" width="25">
+
+             {{message.from}}: {{message.content}}</li>
     </ul>
     <form ng-submit="addMessage();">
         <input type="text" ng-model="message"/>
         <input type="submit" value="Send Message"/>
+
     </form>
 
 </div>
