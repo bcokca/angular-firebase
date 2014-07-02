@@ -10,7 +10,7 @@ Right now it supports twitter and facebook for login, but soon other platforms w
 
 All login and chat stuff happens on client side but I had to use NodeJS and ExpressJS for routing and so on.
 
-[Here is a demo](http://angularfire.aws.af.cm)
+###[Here is a demo](http://angularfire.aws.af.cm)
 
 ##Set up instructions
 You need to have a firebase account and a facebook and/or twitter app in order to run the application.
